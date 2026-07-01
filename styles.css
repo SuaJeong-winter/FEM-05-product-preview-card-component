@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500, 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+  --Green1: hsl(158, 36%, 37%);
+  --Green2: hsl(158, 42%, 18%);
+  --Black: hsl(212, 21%, 14%);
+  --Grey: hsl(228, 12%, 48%);
+  --Cream: hsl(30, 38%, 92%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  margin: 0;
+  background-color: var(--Cream);
+}
+
+.content {
+  background-color: var(--White);
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+}
+
+img {
+  display: block;
+  max-width: 100%; /* img가 부모요소보다 커지지 않도록 함*/
+}
+
+.card-tag {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.card-title {
+  font-family: "Fraunces", sans-serif;
+  font-size: 2rem;
+}
+
+/* footer */
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 421px) {
+}

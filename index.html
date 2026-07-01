@@ -13,29 +13,30 @@
     />
 
     <title>Frontend Mentor | Product preview card component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 0.6875rem;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main class="content">
       <article class="content-card">
-        <img
-          class="content-img-desktop"
-          src="./images/image-product-desktop.jpg"
-        />
-        <!-- <img
-          class="content-img-mobile"
-          src="./images/image-product-mobile.jpg"
-        /> -->
+        <picture>
+          <source
+            class="content-img-desktop"
+            media="(min-width: 421px)"
+            srcset="./images/image-product-desktop.jpg"
+          />
+          <img
+            class="content-img-mobile"
+            src="./images/image-product-mobile.jpg"
+            alt="Product preview"
+          />
+        </picture>
         <span class="card-tag">Perfume</span>
         <h1 class="card-title">Gabrielle Essence Eau De Parfum</h1>
         <p class="card-description">
