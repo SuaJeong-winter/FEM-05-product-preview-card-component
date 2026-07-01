@@ -145,7 +145,7 @@ img {
 
   .content {
     display: flex;
-    width: 50%;
+    width: 60%;
     justify-content: center;
     align-items: center;
     margin: 5rem;
@@ -155,5 +155,9 @@ img {
   .content-img-mobile {
     max-height: 100%;
     border-radius: 0.5rem 0 0 0.5rem;
+  }
+
+  .content-card {
+    padding-top: 1rem;
   }
 }
