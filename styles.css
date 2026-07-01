@@ -35,22 +35,39 @@ body {
   align-items: center;
   justify-content: center;
   margin: 5%;
+  text-align: start;
 }
 
 img {
   display: block;
   max-width: 100%; /* img가 부모요소보다 커지지 않도록 함*/
+  border-radius: 3% 3% 0 0;
+}
+
+.content-card {
+  margin: 0 1rem;
 }
 
 .card-tag {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
+  font-weight: 700;
   text-transform: capitalize;
+  letter-spacing: 0.5rem;
+  color: var(--Grey);
 }
 
 .card-title {
   font-family: "Fraunces", sans-serif;
   font-size: 2rem;
+}
+
+.card-description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+  color: var(--Grey);
 }
 
 /* footer */

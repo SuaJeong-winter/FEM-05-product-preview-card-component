@@ -24,20 +24,20 @@
   </head>
   <body>
     <main class="content">
+      <picture class="content-img">
+        <source
+          class="content-img-desktop"
+          media="(min-width: 421px)"
+          srcset="./images/image-product-desktop.jpg"
+        />
+        <img
+          class="content-img-mobile"
+          src="./images/image-product-mobile.jpg"
+          alt="Product preview"
+        />
+      </picture>
       <article class="content-card">
-        <picture>
-          <source
-            class="content-img-desktop"
-            media="(min-width: 421px)"
-            srcset="./images/image-product-desktop.jpg"
-          />
-          <img
-            class="content-img-mobile"
-            src="./images/image-product-mobile.jpg"
-            alt="Product preview"
-          />
-        </picture>
-        <span class="card-tag">Perfume</span>
+        <p class="card-tag">Perfume</p>
         <h1 class="card-title">Gabrielle Essence Eau De Parfum</h1>
         <p class="card-description">
           A floral, solar and voluptuous interpretation composed by Olivier
