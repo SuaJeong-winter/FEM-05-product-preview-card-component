@@ -68,6 +68,30 @@ img {
   font-weight: 500;
   line-height: 1.4rem;
   color: var(--Grey);
+  margin-bottom: 0;
+}
+
+/* 가격표 */
+.card-price {
+  display: flex;
+  gap: 1rem;
+  justify-content: start;
+  align-items: center;
+}
+
+.price-discount {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: var(--Green1);
+}
+
+.price-original {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--Grey);
+  text-decoration: line-through;
 }
 
 /* footer */
